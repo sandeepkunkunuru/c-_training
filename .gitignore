@@ -1,0 +1,161 @@
+# C++ Training Project .gitignore
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+# Makefile - commented out to allow custom Makefiles
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Allow CMakeLists.txt files
+!CMakeLists.txt
+
+# Week-specific executables
+week*/hello_world
+week*/variables
+week*/user_input
+week*/operators
+week*/calculator
+week*/conditionals
+week*/grade_calculator
+week*/loops
+week*/pattern_printing
+week*/functions
+week*/number_guessing_game
+week*/basic_class
+week*/constructors
+week*/basic_inheritance
+week*/polymorphism
+week*/abstract_class
+week*/bank_account
+week*/function_templates
+week*/class_templates
+week*/exception_handling
+week*/stl_containers
+week*/stl_algorithms
+week*/stl_practical_example
+week*/modern_cpp_part1
+week*/modern_cpp_part2_auto
+week*/modern_cpp_part2_lambdas
+week*/modern_cpp_optional
+week*/modern_cpp_concurrency
+week*/modern_cpp_filesystem
+week*/modern_cpp_fold_expressions
+week*/advanced_task_scheduler_demo
+week*/container_performance
+week*/custom_comparators
+week*/memory_efficient_containers
+week*/custom_iterators
+week*/custom_allocators
+
+# Data files (exclude CMake and README files)
+*.csv
+*.log
+# Block specific .txt files but allow CMake and README
+*.txt
+!CMakeLists.txt
+!README.txt
+!**/CMakeLists.txt
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package managers
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+conanfile.txt.orig
+
+# Testing
+*.gcov
+*.gcno
+*.gcda
+lcov.info
+coverage/
+
+# Documentation
+docs/html/
+docs/latex/
+*.pdf
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

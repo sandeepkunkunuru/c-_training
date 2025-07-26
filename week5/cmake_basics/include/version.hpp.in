@@ -1,0 +1,11 @@
+#pragma once
+
+#define VERSION "@PROJECT_VERSION@"
+#define BUILD_DATE "@BUILD_DATE@"
+#define COMPILER_INFO "@CMAKE_CXX_COMPILER_ID@ @CMAKE_CXX_COMPILER_VERSION@"
+
+namespace MathUtils {
+    constexpr const char* VERSION = "@PROJECT_VERSION@";
+    constexpr const char* BUILD_DATE = "@BUILD_DATE@";
+    constexpr const char* COMPILER_INFO = "@CMAKE_CXX_COMPILER_ID@ @CMAKE_CXX_COMPILER_VERSION@";
+}
