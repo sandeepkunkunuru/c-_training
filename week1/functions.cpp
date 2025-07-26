@@ -75,6 +75,7 @@ int main() {
     std::cout << "\n--- Array as function parameter ---" << std::endl;
     int numbers[] = {10, 20, 30, 40, 50};
     int size = sizeof(numbers) / sizeof(numbers[0]);
+    std::cout << sizeof(numbers) << " " << sizeof(numbers[0]) << std::endl;
     std::cout << "Array elements: ";
     print_array(numbers, size);
     

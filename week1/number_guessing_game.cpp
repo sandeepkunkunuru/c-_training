@@ -17,7 +17,7 @@ bool play_again();
 
 int main() {
     // Seed the random number generator
-    srand(static_cast<unsigned int>(time(nullptr)));
+    srand(static_cast<unsigned int>(time(nullptr))); // how does this work? - https://www.geeksforgeeks.org/cpp/how-to-seed-a-random-number-generator-in-cpp/
     
     // Variables to track game statistics
     int total_games = 0;
